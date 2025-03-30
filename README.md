@@ -20,25 +20,26 @@
 
 1. Клонируйте репозиторий:
 
-```bash```
+```bash
 git clone https://github.com/your-username/ascii-art-bot.git
 cd ascii-art-bot
-
+```
 2. Установите зависимости:
-```bash```
+```bash
 npm install
-
+```
 3. Создайте файл .env в корне проекта и добавьте свой токен:
 
-```bash```
+```bash
 nano .env
-```env```
+```
+```env
 BOT_TOKEN=ваш_токен_бота
-
+```
 4. Запустите бота:
-```bash```
+```bash
 npm start
-
+```
 Использование
 
 *Отправка изображения
@@ -56,7 +57,7 @@ npm start
 
 Структура проекта
 
-```bash```
+```bash
 ascii-art-bot/
 ├── src/
 │   ├── index.js              # Точка входа
@@ -74,7 +75,7 @@ ascii-art-bot/
 ├── .gitignore
 ├── package.json
 └── README.md
-
+```
 
 Зависимости
 
